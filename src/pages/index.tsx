@@ -66,10 +66,7 @@ const Home: NextPage<HomeProps> = ({ campaigns, error }) => {
                   </h1>
                 </Link>
                 <p className="w-full overflow-hidden mb-3">
-                  {/* {campaign.description} */}
-                  {
-                    "You will build and use a component styling framework (much like Tailwind but for React Native), Learn Typescript, Redux (with Redux Toolkit). Deep Linking, Notifications, Multiple Language support, Gestures, Complete Authentication process with automatic Refresh token updates, Complete Deployment guide with Beta Testing, Release Management, Over the air updates, and much more."
-                  }
+                  {campaign.description}
                 </p>
                 <small className="text-sm">
                   {new Intl.DateTimeFormat("en-IN", {

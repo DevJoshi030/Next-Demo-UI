@@ -98,14 +98,10 @@ const CampaignDetail: NextPage<CampaignDetailProps> = ({ campaign, error }) => {
               />
             </div>
             <h1 className="text-3xl font-bold mt-2 mb-2 cursor-pointer">
-              {/* {campaign.title} */}
-              {"Build an instagram clone with Django, AWS and Next JS"}
+              {campaign.title}
             </h1>
             <p className="w-full overflow-hidden mb-3">
-              {/* {campaign.description} */}
-              {
-                "You will build and use a component styling framework (much like Tailwind but for React Native), Learn Typescript, Redux (with Redux Toolkit). Deep Linking, Notifications, Multiple Language support, Gestures, Complete Authentication process with automatic Refresh token updates, Complete Deployment guide with Beta Testing, Release Management, Over the air updates, and much more."
-              }
+              {campaign.description}
             </p>
           </div>
           <div className="flex flex-col self-center w-full items-start col-span-1 md:m-10 md:ml-40 ml-10">
