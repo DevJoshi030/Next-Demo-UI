@@ -111,6 +111,7 @@ const CampaignDetail: NextPage<CampaignDetailProps> = ({ campaign, error }) => {
                   src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-success-flatart-icons-flat-flatarticons.png"
                   height={32}
                   width={32}
+                  alt="alt"
                   className="align-middle self-center rounded-full"
                 />
                 <span className="self-center ml-2">

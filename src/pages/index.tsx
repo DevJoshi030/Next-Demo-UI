@@ -47,7 +47,7 @@ const Home: NextPage<HomeProps> = ({ campaigns, error }) => {
           {campaigns.map((campaign) => (
             <div key={campaign.slug} className="w-2/3 h-3/4 flex bg-card m-3">
               <div className="grid justify-items-stretch m-5 p-6">
-                <Link href={`${campaign.slug}`}>
+                <Link href={`${campaign.slug}`} passHref>
                   <div className="h-10 w-10 self-center justify-self-center md:h-20 md:w-20 cursor-pointer">
                     <Image
                       className="rounded-full"
@@ -60,7 +60,7 @@ const Home: NextPage<HomeProps> = ({ campaigns, error }) => {
                 </Link>
               </div>
               <div className="block flex-col content-start p-6">
-                <Link href={`${campaign.slug}`}>
+                <Link href={`${campaign.slug}`} passHref>
                   <h1 className="text-lg font-bold mt-2 mb-2 cursor-pointer">
                     {campaign.title}
                   </h1>
